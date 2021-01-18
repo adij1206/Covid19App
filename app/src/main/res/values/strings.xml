@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CovidStatus</string>
+    <string name="total_case">0</string>
+</resources>
