@@ -1,71 +1,53 @@
 package com.example.covidstatus.Model;
 
 public class StateData {
-    public String region,totalInfected,newInfected,recovered,newRecovered,deceased,newDeceased;
+    private String name,active,cured,death,total;
 
-    public StateData(String region, String totalInfected, String newInfected, String recovered, String newRecovered, String deceased, String newDeceased) {
-        this.region = region;
-        this.totalInfected = totalInfected;
-        this.newInfected = newInfected;
-        this.recovered = recovered;
-        this.newRecovered = newRecovered;
-        this.deceased = deceased;
-        this.newDeceased = newDeceased;
+    public StateData(String name, String active, String cured, String death, String total) {
+        this.name = name;
+        this.active = active;
+        this.cured = cured;
+        this.death = death;
+        this.total = total;
     }
 
-    public String getRegion() {
-        return region;
+    public String getName() {
+        return name;
     }
 
-    public void setRegion(String region) {
-        this.region = region;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getTotalInfected() {
-        return totalInfected;
+    public String getActive() {
+        return active;
     }
 
-    public void setTotalInfected(String totalInfected) {
-        this.totalInfected = totalInfected;
+    public void setActive(String active) {
+        this.active = active;
     }
 
-    public String getNewInfected() {
-        return newInfected;
+    public String getCured() {
+        return cured;
     }
 
-    public void setNewInfected(String newInfected) {
-        this.newInfected = newInfected;
+    public void setCured(String cured) {
+        this.cured = cured;
     }
 
-    public String getRecovered() {
-        return recovered;
+    public String getDeath() {
+        return death;
     }
 
-    public void setRecovered(String recovered) {
-        this.recovered = recovered;
+    public void setDeath(String death) {
+        this.death = death;
     }
 
-    public String getNewRecovered() {
-        return newRecovered;
+    public String getTotal() {
+        return total;
     }
 
-    public void setNewRecovered(String newRecovered) {
-        this.newRecovered = newRecovered;
-    }
-
-    public String getDeceased() {
-        return deceased;
-    }
-
-    public void setDeceased(String deceased) {
-        this.deceased = deceased;
-    }
-
-    public String getNewDeceased() {
-        return newDeceased;
-    }
-
-    public void setNewDeceased(String newDeceased) {
-        this.newDeceased = newDeceased;
+    public void setTotal(String total) {
+        this.total = total;
     }
 }

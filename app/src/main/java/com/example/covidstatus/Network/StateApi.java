@@ -8,6 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 
 public interface StateApi {
-    @GET("records/LATEST?disableRedirect=true")
+    @GET("records/LATEST/")
     Call<List<StateData>> getAllState();
 }

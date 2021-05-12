@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.CountryDetail"></activity>
+        <activity android:name=".UI.StateDetail"></activity>
+        <activity android:name=".UI.CountryDetail" />
         <activity android:name=".UI.StateList" />
         <activity android:name=".UI.CountryList" />
         <activity android:name=".UI.HomeActivity" />
